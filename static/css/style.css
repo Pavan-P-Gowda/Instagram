@@ -122,9 +122,9 @@ body {
                 /* width: 80%; */
                 /* border: 1px solid; */
                 display: flex;
-                /* justify-content: space-between; */
+                justify-content: space-between;
                 a{
-                    /* justify-content: space-between; */
+                    justify-content: space-between;
                     /* border: 1px solid; */
                     width: 13%;
                     text-decoration: none;
@@ -791,7 +791,7 @@ body {
                 }
                 div.em{
                     width: 146px;
-                    height: 294px;
+                    height: 292px;
                     overflow: hidden;
                     nav{
                         height: 100%;
