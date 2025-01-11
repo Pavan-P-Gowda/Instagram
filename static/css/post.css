@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 430px;
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid black;
+    margin: auto;
+    /* background-color: black; */
+    /* start of post */
+    header{
+        /* background-color: aqua; */
+        /* border: 1px solid; */
+        h3{
+            display: flex;
+            /* border: 1px solid; */
+            nav{
+                width: 50px;
+                a{
+                    width: 50px;
+                    margin-left: 10px;
+                    svg{
+                        /* border: 1px solid; */
+                        width: 25px;
+                        height: 25px;
+                        color: black;
+                    }
+                }
+            }
+            div.next{
+                /* display: flex; */
+                /* flex-direction: column; */
+                nav{
+                    /* margin-right: 10px; */
+                    margin-left: 200px;
+                    margin-top: 5px;
+                    display: flex;
+                    /* border: 1px solid; */
+                    /* width: 50px; */
+                    /* height: 25px; */
+                    a{
+                        width: 10px;
+                        font-size: large;
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+    }
+    /* ends */
+    main{
+        section#height{
+            div.hei{
+                border: 1px solid;
+                width: 100%;
+                height: 300px;
+                img{
+
+                }
+            }
+        }
+        section#recent{
+            div.rec{
+                border: 1px solid;
+                nav{
+                    margin-left: 12px;
+                    a{
+                        color: black;
+                        font-size: large;
+                        font-weight: 600;
+                        text-decoration: none;
+                        svg{
+                            margin-bottom: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        position: fixed;
+            bottom: 0;
+            z-index: 10;
+            width: 100%;
+
+        /* background-color: blue; */
+
+        section#foot {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px;
+            width: 99.9%;
+            max-width: 428px;
+            height: 40px;
+            div.foo {
+                nav {
+                    a {
+                        color: black;
+
+                        /* border: 1px solid; */
+                        svg {
+                            height: 25px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                :active {
+                    color: white;
+                }
+            }
+        }
+    }
+}
