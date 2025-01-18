@@ -919,7 +919,7 @@ body {
                 section#new{
                     display: grid;
                     grid-template-columns: auto auto auto auto;
-                    background-color: aqua;
+                    /* background-color: aqua; */
                     /* border: 1px solid; */
                     div.ne{
                         aspect-ratio: 1/1;
