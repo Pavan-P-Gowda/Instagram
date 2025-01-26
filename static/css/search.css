@@ -69,7 +69,7 @@ body{
                         width: 100%;
                         a{
                             img{
-                                width: 140px;
+                                width: 138px;
                                 height: 148px;
                                 object-fit: cover;
                             }
@@ -78,8 +78,9 @@ body{
                 }
                 div.em{
                     width: 146px;
-                    height: 294px;
+                    height: 299px;
                     overflow: hidden;
+                    /* background-color: black; */
                     nav{
                         height: 100%;
                         width: 100%;
